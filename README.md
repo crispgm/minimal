@@ -7,7 +7,7 @@ Minimalism theme of Jekyll from Crisp
 1. To install a theme, first, add the theme to your site's `Gemfile`:
 
     ```
-    gem 'my-awesome-jekyll-theme'
+    gem 'jekyll-crisp-minimal-theme'
     ```
 
 2. Save the changes to your `Gemfile`
@@ -15,11 +15,11 @@ Minimalism theme of Jekyll from Crisp
 4. Finally, activate the theme by adding the following to your site's `_config.yml`:
 
     ```
-    theme: my-awesome-jekyll-theme
+    theme: jekyll-crisp-minimal-theme
     ```
 
 For more information, please read [https://jekyllrb.com/docs/themes/](https://jekyllrb.com/docs/themes/).
 
 ## Sample
 
-[[Sample Site](https://crisp.lol)][[Screenshot]()]
+[[Sample Site](https://crisp.lol)][[Screenshot](/screenshot.jpg)]

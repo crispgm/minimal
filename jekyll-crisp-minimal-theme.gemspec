@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.summary  = 'A Jekyll Minimalism Theme'
   spec.author   = 'David Zhang'
   spec.email    = 'crispgm@gmail.com'
-  spec.homepage = 'https://github.com/jekyll/jekyll-crisp-minimalism'
+  spec.homepage = 'https://github.com/jekyll/jekyll-crisp-minimalism-theme'
   spec.files    = `git ls-files -z`.split("\x0").grep(%r{^_(sass|includes|layouts)/})
 
   spec.add_dependency "jekyll-disqus"
