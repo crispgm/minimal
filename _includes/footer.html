@@ -1,6 +1,6 @@
 
 <footer>
-    <div>Copyright &copy; <a href="/bio.html">{{site.author}}</a>, {{site.time | date: "%Y"}}.</div>
+    <div>Copyright &copy; {{site.author}}, {{site.time | date: "%Y"}}.</div>
 </footer>
 <script>
 <!-- Google Analytics -->
@@ -9,6 +9,6 @@
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-50708664-1', 'crispgm.com');
+ga('create', '{{site.ga.tracking_id}}', '{{site.ga.username}}');
 ga('send', 'pageview');
 </script>

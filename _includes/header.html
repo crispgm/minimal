@@ -1,11 +1,19 @@
-<div id="menu">
-  <div id="menu_home">
-      <a href="/" style="color: #000000;">DAVID ZHANG</a>
-  </div>
-  <div id="menu_links">
-    <div class="menu_item"><a href="/archive.html">ARCHIVE</a></div>
-    <div class="menu_item"><a href="/things.html">THINGS</a></div>
-    <div class="menu_item"><a href="/bio.html">BIO</a></div>
-    <div class="menu_item"><a href="/about.html">ABOUT</a></div>
-  </div>
-</div>
+    <header class="menu">
+      <div class="menu-home">
+        <a href="/" style="color: #000000;">DAVID ZHANG</a>
+      </div>
+      <div class="menu-links">
+        <div class="menu-item{% if page.title == "Blogs" %}{{" menu-active"}}{% endif %}">
+          <a href="/blogs.html">BLOGS</a>
+        </div>
+        <div class="menu-item{% if page.title == "Projects" %}{{" menu-active"}}{% endif %}">
+          <a href="/projects.html">PROJECTS</a>
+        </div>
+        <div class="menu-item{% if page.title == "Things" %}{{" menu-active"}}{% endif %}">
+          <a href="/things.html">THINGS</a>
+        </div>
+        <div class="menu-item{% if page.title == "About" %}{{" menu-active"}}{% endif %}">
+          <a href="/about.html">ABOUT</a>
+        </div>
+      </div>
+    </header>
