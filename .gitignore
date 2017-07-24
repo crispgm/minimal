@@ -6,3 +6,4 @@ photo/Thumb.db
 .sass-cache/
 /_site
 *.gem
+/gh-pages

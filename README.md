@@ -2,7 +2,7 @@
 
 Minimalism theme of Jekyll from Crisp.
 
-[[Sample Site](https://crisp.lol)]
+[[Sample Site](https://crispgm.github.io/jekyll-crisp-theme/)]
 
 ![Screenshot](/screenshot.jpg)
 
