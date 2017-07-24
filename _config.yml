@@ -1,0 +1,26 @@
+# Site settings
+title: Jekyll Crisp Theme
+author: David Zhang
+description: "Minimalism theme of Jekyll from Crisp"
+encoding: utf-8
+markdown: kramdown
+
+theme: jekyll-crisp-theme
+
+contact:
+  email: yourmail@example.com
+  github: crispgm/jekyll-crisp-theme
+  twitter: crispgm
+issue_report:
+  github: crispgm/jekyll-crisp-theme
+ga:
+  tracking_id: UA-50708664-1
+
+exclude:
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - jekyll-crisp-minimal-theme.gemspec
+  - screenshot.jpg

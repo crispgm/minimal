@@ -1,0 +1,17 @@
+// Theme of Crisp Blog
+// Copyright(c) David Zhang, 2017
+
+.page {
+  text-align: left;
+
+  .page-main {
+    .page-title {
+      color: $sub-color;
+      font-size: 1rem;
+      font-weight: 700;
+      margin-top: 1.2rem;
+      padding: .8rem 0;
+      text-align: left;
+    }
+  }
+}

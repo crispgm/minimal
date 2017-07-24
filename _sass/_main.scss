@@ -1,0 +1,73 @@
+// Theme of Crisp Blog
+// Copyright(c) David Zhang, 2017
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: $breakpoint) {
+  html {
+    font-size: 14px;
+  }
+}
+
+body {
+  background-color: $bg-color;
+  color: $main-color;
+  font-family: -apple-system, BlinkMacSystemFont, "Noto Sans", "Segoe UI", Roboto, Helvetica, Arial, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  word-wrap: break-word;
+
+  ::selection {
+    background-color: $link-color;
+    color: $bg-color;
+  }
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.content {
+  text-align: center;
+  width: 100%;
+}
+
+.content-wrapper {
+  margin: 0 auto;
+  width: $breakpoint;
+}
+
+@media (max-width: $breakpoint) {
+  .content-wrapper {
+    padding-left: .5rem;
+    padding-right: .5rem;
+    width: 100%;
+  }
+}
+
+img {
+  border: 0;
+  max-width: $breakpoint;
+}
+
+@media (max-width: $breakpoint) {
+  img {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,26 @@
+// Theme of Crisp Blog
+// Copyright(c) David Zhang, 2017
+
+pre,
+code {
+  font-family: "Source Code Pro", Menlo, Monaco, Consolas, Courier, monospace;
+  hyphens: none;
+}
+
+pre.highlight {
+  border: 1px solid $code-bg-color;
+  border-radius: 4px;
+  font-size: .9rem;
+}
+
+code.hljs {
+  padding: .4rem;
+}
+
+code.highlighter-rouge {
+  border: 1px solid $border-color;
+  border-radius: .2rem;
+  font-size: .9rem;
+  font-weight: bold;
+  padding: .1rem .3rem;
+}

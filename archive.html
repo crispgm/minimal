@@ -1,16 +1,14 @@
 ---
-title: Index
+title: Archive
 layout: page
 ---
-<div class="page-title" id="latest-posts">Latest Posts</div>
+
+<div class="page-title" id="archive">Archive</div>
 <div class="archive-main">
-  {% for post in site.posts limit:6 %}
+  {% for post in site.posts %}
     <div class="archive-item">
       <div class="archive-date">{{ post.date | date:"%B %d, %Y" }}</div>
       <div class="archive-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
     </div>
   {% endfor %}
 </div>
-<p class="archive-more">
-  <a href="/archive.html">More</a>
-</p>

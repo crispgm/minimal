@@ -1,25 +1,14 @@
 ---
 layout: default
 ---
-
-<div id="container">
-  <div class="article">
-    <div class="article_head">
-      <div class="article_title">{{page.title}}</div>
-      <div class="article_date">{{page.date | date:"%Y/%m/%d"}}</div>
-    </div>
-    <div class="article_main">
-      {{ content }}
-    </div>
-    {% if page.tags.size > 0 %}
-    <div class="article_tag">
-      {% for tag in page.tags %}
-      <div class="tag_item">
-      {{ tag }}
-      </div>
-      {% endfor %}
-    </div>
-    {% endif %}
-    {% include disqus.html %}
+<div class="article">
+  <div class="article-head">
+    <div class="article-title">{{page.title}}</div>
+    <div class="article-date">{{page.date | date:"%B %d, %Y"}}</div>
   </div>
+  <div class="article-main">
+    {{ content }}
+  </div>
+  <div id="disqus_thread" class="article-comment"></div>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </div>
