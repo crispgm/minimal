@@ -13,8 +13,9 @@ contact:
   twitter: crispgm
 issue_report:
   github: crispgm/jekyll-crisp-theme
-ga:
-  tracking_id: UA-50708664-1
+google_analytics: UA-50708664-1
+disqus:
+  shortname: crispgm
 
 exclude:
   - Rakefile
