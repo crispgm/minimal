@@ -1,16 +1,15 @@
 <header class="content-wrapper menu">
   <div class="menu-home">
-    <a href="/">{{ site.title }}</a>
+    <a href="{{ "/" | relative_url }}">{{ site.title }}</a>
   </div>
   <div class="menu-links">
-    <div class="menu-item{% if page.title == "Archive" %}{{ " menu-active" }}{% endif %}">
-      <a href="/archive.html">Archive</a>
+  {% assign default_paths = site.pages | map: "path" %}
+  {% assign page_paths = site.menu | default: default_paths %}
+  {% for path in page_paths %}
+    {% assign item = site.pages | where: "path", path | first %}
+    <div class="menu-item{% if page.title == item.title %}{{ " menu-active" }}{% endif %}">
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
     </div>
-    <div class="menu-item{% if page.title == "Project" %}{{ " menu-active" }}{% endif %}">
-      <a href="/project.html">Project</a>
-    </div>
-    <div class="menu-item{% if page.title == "About" %}{{ " menu-active" }}{% endif %}">
-      <a href="/about.html">About</a>
-    </div>
+  {% endfor %}
   </div>
 </header>

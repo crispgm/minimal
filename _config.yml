@@ -4,19 +4,29 @@ author: David Zhang
 description: "Minimalism theme of Jekyll from Crisp"
 encoding: utf-8
 markdown: kramdown
-
-# theme: jekyll-crisp-theme
-
+baseurl: /jekyll-crisp-theme
+# Menu
+menu:
+  - archive.md
+  - project.md
+  - about.md
+# Contact Icons
 contact:
-  email: yourmail@example.com
-  github: crispgm/jekyll-crisp-theme
-  twitter: crispgm
+  - link: mailto:yourmail@example.com
+    icon: fa-envelope-o
+  - link: https://github.com/crispgm/jekyll-crisp-theme
+    icon: fa-github
+  - link: https://twitter.com/crispgm
+    icon: fa-twitter
+# GitHub Repo for your site
 issue_report:
   github: crispgm/jekyll-crisp-theme
+# Google Analytics
 google_analytics: UA-50708664-1
+# Disqus
 disqus:
   shortname: crispgm
-
+# Exclusion
 exclude:
   - Rakefile
   - Gemfile

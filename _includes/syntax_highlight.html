@@ -1,4 +1,4 @@
 {% if page.disable_syntax_highlight != true %}
-<script src="/assets/scripts/highlight.pack.js"></script>
+<script src="{{ "/assets/scripts/highlight.pack.js" | relative_url }}"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 {% endif %}

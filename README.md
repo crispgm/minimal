@@ -2,7 +2,7 @@
 
 Minimalism theme of Jekyll from Crisp.
 
-[[Sample Site](https://crispgm.github.io/jekyll-crisp-theme/)]
+[Sample Site](https://crispgm.github.io/jekyll-crisp-theme/)
 
 ![Screenshot](/screenshot.jpg)
 
@@ -43,9 +43,19 @@ For more information, please read [https://jekyllrb.com/docs/themes/](https://je
 
 ### Sass
 
-* `style.scss`
+* `style.scss`: Defines the variable defaults for the theme and also further imports sass partials to supplement itself.
+* `_main.scss`: Defines the base styles for various HTML elements.
+* `_archive.scss`: Defines the styles for archive list.
+* `_article.scss`: Defines the styles for articles.
+* `_code-highlight.scss`: Defines the styles for syntax-highlighting.
+* `_footer.scss`: Defines the styles for footer.
+* `_menu.scss`: Defines the styles for header(menu).
+* `_page.scss`: Defines the styles for page.
+* `_things.scss`: Defines the styles for project list.
 
 ### Assets
+
+This directory includes sufficient css, js, and images used for the theme.
 
 ## Usage
 
@@ -56,9 +66,27 @@ For more information, please read [https://jekyllrb.com/docs/themes/](https://je
 
 ### Menu
 
-### Footer Icons
+Header menu can be customized. Add *original* file (not target file) path to `site.menu`.
+
+```
+  menu:
+    - my_md_page.md
+    - my_html_page.html
+```
+
+### Contact Icons
+
+Contact icons can be set in `site.contact`. To add more contact icons, attach new items with `link` and `icon` to your target position.
+
+```
+  contact:
+    - link: https://crispgm.github.io/jekyll-crisp-theme/
+      icon: fa-globe
+```
 
 ### Project
+
+Project page is a place to show the information sheet of your projects. You may use `_data` file to organize the page, or even use `github-metadata` to do that.
 
 ### Disqus
 
