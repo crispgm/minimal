@@ -1,6 +1,6 @@
 # Jekyll Crisp Minimal Theme
 
-![Gem Version](https://badge.fury.io/rb/jekyll-crisp-minimal-theme.svg)](https://badge.fury.io/rb/jekyll-crisp-minimal-theme)
+[![Gem Version](https://badge.fury.io/rb/jekyll-crisp-minimal-theme.svg)](https://badge.fury.io/rb/jekyll-crisp-minimal-theme)
 
 Minimal theme of Jekyll from Crisp.
 
