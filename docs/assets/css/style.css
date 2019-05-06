@@ -1,6 +1,6 @@
 /*
  * Theme of Crisp Blog
- * Copyright(c) David Zhang, 2017
+ * Copyright(c) David Zhang, 2019
  */
 * {
   box-sizing: border-box; }
@@ -10,7 +10,7 @@ html {
   height: 100%;
   width: 100%; }
 
-@media (max-width: 38rem) {
+@media (max-width: 40rem) {
   html {
     font-size: 14px; } }
 body {
@@ -39,18 +39,18 @@ a {
 
 .content-wrapper {
   margin: 0 auto;
-  width: 38rem; }
+  width: 40rem; }
 
-@media (max-width: 38rem) {
+@media (max-width: 40rem) {
   .content-wrapper {
     padding-left: .5rem;
     padding-right: .5rem;
     width: 100%; } }
 img {
   border: 0;
-  max-width: 38rem; }
+  max-width: 40rem; }
 
-@media (max-width: 38rem) {
+@media (max-width: 40rem) {
   img {
     max-width: 100%; } }
 .menu {
@@ -83,7 +83,7 @@ img {
         text-decoration: underline; }
   .menu .menu-active a {
     text-decoration: underline; }
-  @media (max-width: 38rem) {
+  @media (max-width: 40rem) {
     .menu {
       display: block;
       padding-top: .4rem; }
@@ -103,7 +103,7 @@ footer {
   footer .content-wrapper {
     border-bottom: 0; }
 
-@media (max-width: 38rem) {
+@media (max-width: 40rem) {
   footer .content-wrapper {
     padding-left: 0; } }
 .contact {
@@ -120,7 +120,7 @@ footer {
   .contact .contact-links {
     float: right; }
 
-@media (max-width: 38rem) {
+@media (max-width: 40rem) {
   .contact .contact-copyright {
     margin-left: .6rem;
     padding-top: 1rem;
@@ -303,7 +303,7 @@ code.highlighter-rouge {
   .things ul {
     margin: 0; }
 
-@media (max-width: 38rem) {
+@media (max-width: 40rem) {
   .things .things-item {
     display: block; }
     .things .things-item .things-link {
