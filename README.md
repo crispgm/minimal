@@ -4,7 +4,7 @@
 
 Minimal theme of Jekyll from Crisp.
 
-[Sample Site](https://crispgm.github.io/jekyll-crisp-theme/)
+[Sample Site](https://crispgm.github.io/minimal/)
 
 ![Screenshot](/screenshot.jpg)
 
@@ -13,7 +13,7 @@ Minimal theme of Jekyll from Crisp.
 1. To install a theme, first, add the theme to your site's `Gemfile`:
 
     ```
-    gem 'jekyll-crisp-theme'
+    gem 'jekyll-crisp-minimal-theme'
     ```
 
 2. Save the changes to your `Gemfile`
@@ -21,7 +21,7 @@ Minimal theme of Jekyll from Crisp.
 4. Finally, activate the theme by adding the following to your site's `_config.yml`:
 
     ```
-    theme: jekyll-crisp-theme
+    theme: jekyll-crisp-minimal-theme
     ```
 
 For more information, please read [https://jekyllrb.com/docs/themes/](https://jekyllrb.com/docs/themes/).
@@ -82,7 +82,7 @@ Contact icons can be set in `site.contact`. To add more contact icons, attach ne
 
 ```
   contact:
-    - link: https://crispgm.github.io/jekyll-crisp-theme/
+    - link: https://crispgm.github.io/minimal/
       icon: fa-globe
 ```
 
@@ -119,7 +119,7 @@ Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at <https://github.com/crispgm/jekyll-crisp-theme>. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org/) code of conduct.
+Bug reports and pull requests are welcome on GitHub at <https://github.com/crispgm/minimal>. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org/) code of conduct.
 
 ## License
 
