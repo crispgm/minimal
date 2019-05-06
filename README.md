@@ -1,6 +1,6 @@
-# Jekyll Crisp Minimalism Theme
+# Jekyll Crisp Minimal Theme
 
-Minimalism theme of Jekyll from Crisp.
+Minimal theme of Jekyll from Crisp.
 
 [Sample Site](https://crispgm.github.io/jekyll-crisp-theme/)
 

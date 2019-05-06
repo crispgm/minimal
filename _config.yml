@@ -1,10 +1,10 @@
 # Site settings
-title: Jekyll Crisp Theme
+title: Jekyll Crisp Minimal Theme
 author: David Zhang
-description: "Minimalism theme of Jekyll from Crisp"
+description: "Minimal theme of Jekyll from Crisp"
 encoding: utf-8
 markdown: kramdown
-baseurl: /jekyll-crisp-theme
+baseurl: /minimal
 # Menu
 menu:
   - archive.md
@@ -14,13 +14,13 @@ menu:
 contact:
   - link: mailto:yourmail@example.com
     icon: fa-envelope-o
-  - link: https://github.com/crispgm/jekyll-crisp-theme
+  - link: https://github.com/crispgm/minimal
     icon: fa-github
   - link: https://twitter.com/crispgm
     icon: fa-twitter
 # GitHub Repo for your site
 issue_report:
-  github: crispgm/jekyll-crisp-theme
+  github: crispgm/minimal
 # Google Analytics
 google_analytics: UA-50708664-1
 # Disqus

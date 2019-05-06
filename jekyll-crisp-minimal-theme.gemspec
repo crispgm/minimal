@@ -2,7 +2,7 @@ Gem::Specification.new do |spec|
   spec.name     = 'jekyll-crisp-minimal-theme'
   spec.version  = '1.0.0.beta2'
   spec.license  = 'MIT'
-  spec.summary  = 'A Minimalism Jekyll Theme'
+  spec.summary  = 'A Minimal Jekyll Theme'
   spec.author   = 'David Zhang'
   spec.email    = 'crispgm@gmail.com'
   spec.homepage = 'https://github.com/crispgm/minimal'
