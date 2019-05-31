@@ -6,7 +6,10 @@ Minimal theme of Jekyll from Crisp.
 
 [Sample Site](https://crispgm.github.io/minimal/)
 
-![Screenshot](/screenshot.jpg)
+<p align="center">
+  <img src="screenshot-desktop.png" width="590" />
+  <img src="screenshot-mobile.png" width="154" />
+</p>
 
 ## Installation
 
