@@ -7,3 +7,5 @@ photo/Thumb.db
 /_site
 *.gem
 /gh-pages
+Gemfile.lock
+
